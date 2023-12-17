@@ -1,0 +1,145 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.nav_bar{
+    display: flex;
+    
+   
+    justify-content: space-between;
+    
+    background-color: rgb(199, 232, 238);
+    padding: 10px 20px;
+
+}
+.left_bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.middle_bar{
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    
+}
+.search_button{
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: red;
+    padding-top: 6px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+
+}
+.search_button:hover{
+    opacity: 0.9;
+}
+.right_bar{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+    justify-content: space-between;
+    
+
+}
+.profile_links{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 20px;
+    color: black;
+}
+.profile_links:hover{
+    text-decoration: underline;
+}
+.input{
+    border-width: 1.5px;
+    width: 250px;
+    height: 20px;
+    background-color: rgb(239, 239, 239);
+    padding: 5px;
+}
+.input:hover{
+    border-color: blueviolet;
+}
+.text_1{
+    text-decoration: none;
+    color: white;
+}
+.para{
+    width: 400px;
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.img_mount{
+    width: 100%;
+    
+    height: 100%;
+  
+    
+
+    
+}
+.mountains{
+    position: relative;
+}
+.heading_1 {
+    position: absolute;
+    top: 30%; /* Adjust vertical position */
+    left: 50%; /* Adjust horizontal position */
+    /* transform: translate(-50%, -50%);
+    z-index: 1; */
+    text-align: center; /* Center the text */
+    color: rgb(17, 15, 15); /* Set text color */
+  
+}
+
+.head1,
+.head2 {
+    margin: 0; /* Remove default margin */
+}
+
+/* Additional styling if needed */
+.head1 {
+    font-size: 40px;
+    font-weight: bold;
+    width: 400px;
+}
+
+.head2 {
+    font-size: 25px;
+}
+.button_1{
+    font-size: 18px;
+    border: none;
+    color: white;
+    background-color: rgb(11, 136, 153);
+    padding: 10px 20px ;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: 0.2s;
+}
+.button_1:hover{
+    transition: 0.3s;
+    background-color: rgb(152, 106, 13);
+}
