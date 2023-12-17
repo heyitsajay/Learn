@@ -4,79 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    body{
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .nav_bar{
-        display: flex;
-        margin-top: 20px;
-        max-width: 1280px;
-        margin: 0 auto;
-        justify-content: space-between;
-        margin-bottom: 20px;
-
-    }
-    .left_bar{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 100px;
-        font-weight: bold;
-        font-size: 25px;
-    }
-    .middle_bar{
-        margin-right: 100px;
-        display: flex;
-        align-items: center;
-        
-    }
-    .search_button{
-        margin-left: 10px;
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-        font-size: 20px;
-        cursor: pointer;
-        border: none;
-        background-color: red;
-        padding-top: 5px;
-        padding-left: 10px;
-        padding-bottom: 5px;
-        padding-right: 10px;
-        border-radius: 4px;
-        letter-spacing: 1px;
-
-    }
-    .right_bar{
-        display: flex;
-        align-items: center;
-        font-size: 23px;
-        font-weight: 600;
-    }
-    .input{
-        width: 150px;
-        height: 20px;
-        padding: 5px;
-    }
-    .para{
-        width: 400px;
-        background-color: lightblue;
-        border-radius: 5px;
-        padding: 20px;
-        margin-top: 50px;
-        display: flex;
-        align-items: center;
-        margin: 0 auto;
-    }
-
-  
-</style>
 <body>
     <header class="nav_bar">
         <div>
             <p class="left_bar">
-                Youtube
+                Mountains
             </p>
         </div>
         <div class="middle_bar">
@@ -87,13 +21,34 @@
            
         </div>
         <div class="right_bar">
-           <p >profile</p> 
+           <a class="profile_links" href="Home">Home</a>
+           <a class="profile_links" href="Gallery">Gallery</a>
+           <a class="profile_links" href="contact">Hike</a>
+
            
         </div>
 
     </header>
-    <p class="para">
+    <div class="mountains">
+    <img src="./pexels-eberhard-grossgasteiger-1287145.jpg" alt="mountains" class="img_mount">
+    <div class="heading_1">
+    <h2 class="head1">
+        A MINIMAL, CLEAN
+    </h2>
+    <h2 class="head2">
+        LAYOUT FOR WEB DESIGN
+    </h2>
+    <button  class="button_1">
+       <a href="Form" class="text_1">Get Started</a> 
+    </button>
+    </div>
+    <!-- <p class="para">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat iusto quis atque sapiente odio at unde doloribus exercitationem neque fuga. Quidem debitis, delectus quae eligendi tempore, temporibus nesciunt distinctio sed et earum quia! Error quas qui, veniam repudiandae doloribus aspernatur adipisci hic facilis optio eum iste!
-    </p>
+    </p> --></div>
+    <h2>
+        Hike With Us
+    </h2>
+
+    
 </body>
 </html>
